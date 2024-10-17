@@ -16,7 +16,7 @@ public class RechercheVilleTest {
         rechercheVille = new RechercheVille();
 
         // act and assert
-        Assert.assertThrows(ClassNotFoundException.class, ()-> rechercheVille.rechercher("A"));
+        Assert.assertThrows(NotFoundException.class, ()-> rechercheVille.rechercher("A"));
     }
 
 }
