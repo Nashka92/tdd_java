@@ -4,6 +4,7 @@ import org.example.rechercheville.RechercheVille;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
+import org.example.rechercheville.NotFoundException;
 
 public class RechercheVilleTest {
 
